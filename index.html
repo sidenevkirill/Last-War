@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>GAME</title>
+
+    <!-- Yandex Games SDK -->
+<script src="https://yandex.ru/games/sdk/v2"></script>
+<script>
+    YaGames.init().then(ysdk => {
+        // ...
+    });
+</script>
+
+</head>
+<body>
+	   <div class="init">
+        <div class="center1">
+            <h1>WELCOME!</h1>
+            <p>Нажмите на каждый квадрат, чтобы занять клетку. Вы должны поторопиться, иначе робот победит!</p>
+            <p class="floating bold">НАЧАТЬ ИГРУ</p>
+        </div>
+    </div>
+    <div class="won">
+        <div class="center">
+            <h1>ВЫ ПОБЕДИЛИ!</h1>
+            <p class="floating replay bold">ПРОДОЛЖИТЬ ИГРУ</p>
+        </div>
+    </div>
+    <div class="init hidden"><h1 class="center">СКОРОСТЬ УВЕЛИЧЕНА!</h1></div>
+   <!-- <h2 class="counter">Level: 1</h2> -->
+    <div class="container">
+        <div class="game"></div>
+    </div>  
+     <script src="js/script.js"></script>
+</body>
+</html>
