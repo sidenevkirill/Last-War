@@ -6,7 +6,7 @@ var interval = 800;
 //var counter = 1;
 
 function createGame() {
-    for (let i = 0; i < 25; i++) {
+    for (let i = 0; i < 30; i++) {
         let a = document.querySelector('.game');
         let b = document.createElement('div');
         b.classList.add('box');
@@ -39,7 +39,7 @@ function addTree(e) {
     
     if(arrTree.indexOf(c.dataset.value) == -1) {
         arrTree.push(c.dataset.value);
-        if(arrTree.length == 25) {
+        if(arrTree.length == 30) {
             clearInterval(newFactory);
             
             document.querySelector('.hidden').classList.remove('levelUp');
@@ -62,7 +62,7 @@ function addTree(e) {
 }
 
 function randomFactory() {
-    let e = Math.random() * 25;
+    let e = Math.random() * 30;
     let g = Math.floor(e);
     
     if(arrFactory.indexOf(box[g].dataset.value) == -1) {
