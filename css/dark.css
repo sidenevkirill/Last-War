@@ -1,4 +1,4 @@
- {
+{
     border: 1px solid #888;
 }
 
@@ -15,6 +15,28 @@ body {
     padding: 0;
     height: 100vh;
     background-color: #1a1a1a;
+}
+
+.btn-toggle {
+    text-decoration-color: #333;
+    margin-top: 30px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 20px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    touch-action: manipulation;
 }
 
 h1, h2 {
@@ -68,7 +90,7 @@ p {
     bottom: 0;
     margin: auto;
     width: 540px;
-    height: 640px;
+    height: 650px;
     border-radius: 9px;
     background-color: #333;
     padding: 5px;
@@ -147,9 +169,25 @@ p {
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
     cursor: pointer;
-    text-decoration: underline;
     text-decoration-color: #333;
     margin-top: 30px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 20px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    touch-action: manipulation;
 }
 
 .levelUp {
