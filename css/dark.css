@@ -1,4 +1,4 @@
-{
+ {
     border: 1px solid #888;
 }
 
@@ -15,6 +15,7 @@ body {
     padding: 0;
     height: 100vh;
     background-color: #1a1a1a;
+    overflow-y: hidden;
 }
 
 .btn-toggle {
@@ -86,8 +87,7 @@ p {
     position: absolute;
     left: 0;
     right: 0;
-    top: 0;
-    bottom: 0;
+    top: 10%;
     margin: auto;
     width: 540px;
     height: 650px;
