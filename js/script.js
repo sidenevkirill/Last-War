@@ -25,7 +25,7 @@ function replay() {
 
         });
         counter += 1;
-        document.querySelector('.counter').innerHTML = 'Level: ' + counter;
+        document.querySelector('.counter').innerHTML = 'Уровень: ' + counter;
         document.querySelector('.hidden').classList.add('levelUp')
         let bang = document.querySelector('.won');
         newFactory = setInterval(randomFactory, 600);
