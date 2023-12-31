@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/screen-0.png" width="100%" />
+  <img src="screen/screen-0.png" width="100%" />
 </p>
 
 ## Скачать
